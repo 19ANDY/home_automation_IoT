@@ -28,7 +28,6 @@ void setup()
   digitalWrite(D4,HIGH);
   
   
-
   Blynk.begin(auth, ssid, pass);
   // You can also specify server:
   //Blynk.begin(auth, ssid, pass, "blynk-cloud.com", 8442);
